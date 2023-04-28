@@ -3,15 +3,19 @@ title: "Complaints on Github Pages"
 date: 2023-04-28T08:43:14-04:00
 draft: false
 description: 'Complaints on Github Pages hosting services when working with Hugo'
-tags: ['Github', 'Hugo']
+tags: ['github', 'hugo','complaints', 'static website', 'front-end']
 categories: ['Blog', 'Personal']
 ---
 
-## Welcome
+# Welcome
 
 Welcome to the first post of my blog, aethers-vi, in which I will talk about the different complaints and problems
 I've been having working with Hugo along with Github Pages for the past 3 days, as well as explain some of the 
 solutions if found useful for the problem I was having. I'll tell you in advance, it's been hell for me. 
+
+
+# Problems
+
 
 ## Lack of documentation
 
@@ -41,7 +45,17 @@ I even tried looking up different tutorials that tried different approaches to h
 Pages. This didn't work at all, since it was working for everyone and not for me. I started to even think that
 there had to be a problem with the version of Hugo I had installed, or with the blog.
 
-### Discoveries
+
+## Unprecise Visual Material
+
+The tutorials I found on YouTube about the topic didn't help much either. Most of them followed the same steps
+to get to the same result at the end, without touching the different problems that one may have
+trying to follow along. I have to admit that some of the videos did things differently, which helped me
+understand many things. But, even though my knowledge developed, I was still in the exact same place with no 
+progress regarding my blog.
+
+
+# Discoveries
 
 Reading half of the posts about the problem I having helped me learn some things. The main reason this problems happens
 is because of the `index.html` is not able to find the directory in which the styles are located. This happens because in the
@@ -58,7 +72,7 @@ Neither of this solutions worked for me. I tried setting the end of the baseURL 
 to a relative directory, and even enable the `relativeDirectory` and `uglyURLs` parameter on the `config.yml` file to see if that 
 was the problem, and still nothing.
 
-### Solution
+# Solution
 
 After trying almost everything at hand, I came across a page called netlify. This page offers a free hosting service with some limitations
 for people and teams to host their websites there. 
