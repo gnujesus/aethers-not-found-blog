@@ -5,10 +5,23 @@ theme: PaperMod
 author: Zan Aether
 
 params:
+  socialIcons:
+    - name: twitter
+      url: https://twitter.com/aethernotfound
+    - name: github
+      url: https://github.com/juandma0
+  
+  
+  
+  
   cover:
     linkFullImages: true
 
   ShowBreadcrumbs: true
+
+  ShowShareButtons: true
+
+
 
 menu:
   main:
