@@ -1,0 +1,30 @@
+baseURL: '/'
+languageCode: en-us
+title: V E Blog
+theme: PaperMod
+author: Zan Aether
+
+params:
+  cover:
+    linkFullImages: true
+
+  ShowBreadcrumbs: true
+
+menu:
+  main:
+    # Categories
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 10
+    # Tags
+    - identifier: tags
+      name: Tags
+      url: /Tags/
+      weight: 20
+      
+      
+      
+
+
+
