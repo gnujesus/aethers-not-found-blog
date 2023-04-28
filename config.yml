@@ -10,6 +10,8 @@ params:
       url: https://twitter.com/aethernotfound
     - name: github
       url: https://github.com/juandma0
+
+  comments: true
   
   
   
