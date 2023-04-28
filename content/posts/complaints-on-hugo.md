@@ -68,9 +68,10 @@ that way, when the page searches for assests, instead of going `<URL>/.../assets
 2. Changing the `baseURL` to `https://<github_username>.github.io/<name_of_the_site>/`: This uses github as the root directory for 
 the assest, so the website goes there when it needs to find the styles and any other element needed for the site.
 
-Neither of this solutions worked for me. I tried setting the end of the baseURL to a `/` and deleting it, leaving it blank, setting 
+Neither of this solutions worked for me. I tried setting the end of the baseURL to a `/`, I tried deleting 
+that, I tried leaving it blank, I tried setting
 to a relative directory, and even enable the `relativeDirectory` and `uglyURLs` parameter on the `config.yml` file to see if that 
-was the problem, and still nothing.
+was the problem, and nothing seemed to work.
 
 # Solution
 
