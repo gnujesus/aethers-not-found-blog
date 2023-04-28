@@ -9,9 +9,9 @@ categories: ['Blog', 'Personal']
 
 ## Welcome
 
-Welcome to the first post of my blog, aethers-vi, in which I will explain the different complaints and problems
-I've been having working with Hugo along with Github Pages for the past 3 days. I'll tell you in advance, it's
-been hell for me. 
+Welcome to the first post of my blog, aethers-vi, in which I will talk about the different complaints and problems
+I've been having working with Hugo along with Github Pages for the past 3 days, as well as explain some of the 
+solutions if found useful for the problem I was having. I'll tell you in advance, it's been hell for me. 
 
 ## Lack of documentation
 
@@ -41,4 +41,34 @@ I even tried looking up different tutorials that tried different approaches to h
 Pages. This didn't work at all, since it was working for everyone and not for me. I started to even think that
 there had to be a problem with the version of Hugo I had installed, or with the blog.
 
+### Discoveries
+
+Reading half of the posts about the problem I having helped me learn some things. The main reason this problems happens
+is because of the `index.html` is not able to find the directory in which the styles are located. This happens because in the
+`config.yml ` file (or `tml`, which ever you prefer) the `baseURL` isn't set correctly. The baseURL is supposed to be the URL
+of the site, in which the site will search for the favicon, images, and most importantly, styles. The three main solutions I 
+found for this problems were the following:
+
+1. Changing the `baseURL` to `/`: This is suppossed to fix the problem since you're setting the baseURL to be a relative URL,
+that way, when the page searches for assests, instead of going `<URL>/.../assets/` it will go `/assets/`. 
+2. Changing the `baseURL` to `https://<github_username>.github.io/<name_of_the_site>/`: This uses github as the root directory for 
+the assest, so the website goes there when it needs to find the styles and any other element needed for the site.
+
+Neither of this solutions worked for me. I tried setting the end of the baseURL to a `/` and deleting it, leaving it blank, setting 
+to a relative directory, and even enable the `relativeDirectory` and `uglyURLs` parameter on the `config.yml` file to see if that 
+was the problem, and still nothing.
+
+### Solution
+
+After trying almost everything at hand, I came across a page called netlify. This page offers a free hosting service with some limitations
+for people and teams to host their websites there. 
+
+At the beginning, I was skeptical with the idea of using this service, but then I gave it a try. The firs time I tried, it worked perfectly
+but the home button of the page wasn't working as spected, so I went back to the Github Pages to keep trying since I though it was supossed to work
+well there. 
+
+After losing my patience once again, I came back to netlify after deploying everything on Github and hosted it there, and figure out that 
+for the home button to work, I had to set the baseURL to `/` once again so the site searches for the relative directory of each thing on order to work correctly.
+
+Then, after deploying on netlify, I had a beautiful website fully working with no issues. 
 
