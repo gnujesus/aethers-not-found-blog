@@ -11,7 +11,7 @@ categories: ['Blog', 'Personal']
 
 Welcome to the first post of my blog, aethers-vi, in which I will talk about the different complaints and problems
 I've been having working with Hugo along with Github Pages for the past 3 days, as well as explain some of the 
-solutions if found useful for the problem I was having. I'll tell you in advance, it's been hell for me. 
+solutions I found useful for the problem I was having. I'll tell you in advance, it's been hell. 
 
 
 # Problems
