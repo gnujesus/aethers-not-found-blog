@@ -4,6 +4,16 @@ date: 2023-04-28T08:43:14-04:00
 draft: false
 description: 'Complaints on Github Pages hosting services when working with Hugo'
 tags: ['github', 'hugo','complaints', 'static website', 'front-end']
+keywords: 
+- Aether
+- Github
+- Hugo
+- Static Site
+- HTML
+- CSS
+- Web Development
+- Programming
+- Tech
 categories: ['Blog', 'Personal']
 ---
 
