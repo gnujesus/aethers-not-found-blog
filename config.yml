@@ -1,169 +1,89 @@
 baseURL: '/'
 languageCode: en-us
 title: Aether's Vi 
-theme: hugo-theme-monochrome 
+theme: PaperMod  
+
+outputs: # I don't know what this does
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+
+params:
+
+  # # Home info content. Required for social media icons to show
+  # homeInfoParams:
+  #   Title:
+  #   Content
   
-params: 
 
-  author: 'Aether' 
+  # Social icons
+  socialIcons:
+    - name: twitter
+      url: https://twitter.com/aethernotfound
+    - name: github
+      url: https://github.com/juandma0
 
-  # Required for site search
-  outputs:
-    home:
-      - HTML
-      - RSS
-      - JSON
+  # Authors of the site
+  author: ['Aether']
+  
 
-  # Syntax hightligh and code copy
-  syntax_highlight:
-    lib: builtin
-    builtin:
-      enable_code_copy: true
+  # Code copy button
+  ShowCodeCopyBUttons: true
+  
+  ShowToc: true
+  
+  # Post covers
+  cover:
+    linkFullImages: true
 
+  # Breadcrumbs
+  ShowBreadcrumbs: true
 
-  # Navbar Title
-  navbar_title: Aether's Vi 
-
-  # Footer
-  footer: Copyright © 2021 by Aether
-
-  # Table of content
-  enable_toc: true
-  enable_collapsible_toc: true
-  enable_collapsible_changelogs: true
-
-  #Latex
-  enable_math: true
+  # Social media share buttons
+  ShowShareButtons: true
 
 
-  # List layout
-  list_layout:
-    enable_group_by_year: true
+  fuseOpts: # I don't know what this does
+      isCaseSensitive: false
+      shouldSort: true
+      location: 0
+      distance: 1000
+      threshold: 0.4
+      minMatchCharLength: 0
+      keys: ["title", "permalink", "summary", "content"]
 
-  # Searchbar
-  enable_site_search:  true
+
+
+
 
 menu:
-  navbar:
-  
- # Home
-  - identifier: Home
-    name: Home
-    url: /
-    weight: 10
+  main:
+    # Archives page
+    - identifier: search 
+      name: Search 
+      url: /search/
+      weight: 10
 
- # Categories
-  - identifier: categories
-    name: Categories
-    url: /categories/
-    weight: 20
- # Tags
-  - identifier: tags
-    name: Tags
-    url: /Tags/
-    weight: 30
+    # Categories
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 220
+    # Tags
+    - identifier: tags
+      name: Tags
+      url: /Tags/
+      weight: 30
 
-
-
-
-
-
-
-
-
+    # # Archives page
+    # - identifier: archives 
+    #   name: Archives
+    #   url: /archives/
+    #   weight: 40
+    #   
+      
 
 
-
-
-
-
-
-
-
-
-
-
-# outputs: # I don't know what this does
-#   home:
-#     - HTML
-#     - RSS
-#     - JSON
-#
-#
-# params:
-#
-#   # # Home info content. Required for social media icons to show
-#   # homeInfoParams:
-#   #   Title:
-#   #   Content
-#   
-#
-#   # Social icons
-#   socialIcons:
-#     - name: twitter
-#       url: https://twitter.com/aethernotfound
-#     - name: github
-#       url: https://github.com/juandma0
-#
-#   # Authors of the site
-#   author: ['Aether']
-#   
-#
-#   # Code copy button
-#   ShowCodeCopyBUttons: true
-#   
-#   ShowToc: true
-#   
-#   # Post covers
-#   cover:
-#     linkFullImages: true
-#
-#   # Breadcrumbs
-#   ShowBreadcrumbs: true
-#
-#   # Social media share buttons
-#   ShowShareButtons: true
-#
-#
-#   fuseOpts: # I don't know what this does
-#       isCaseSensitive: false
-#       shouldSort: true
-#       location: 0
-#       distance: 1000
-#       threshold: 0.4
-#       minMatchCharLength: 0
-#       keys: ["title", "permalink", "summary", "content"]
-#
-#
-#
-#
-#
-# menu:
-#   main:
-#     # Archives page
-#     - identifier: search 
-#       name: Search 
-#       url: /search/
-#       weight: 10
-#
-#     # Categories
-#     - identifier: categories
-#       name: Categories
-#       url: /categories/
-#       weight: 220
-#     # Tags
-#     - identifier: tags
-#       name: Tags
-#       url: /Tags/
-#       weight: 30
-#
-#     # # Archives page
-#     # - identifier: archives 
-#     #   name: Archives
-#     #   url: /archives/
-#     #   weight: 40
-#     #   
-#       
-#
-#
 
