@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Aether&#39;s Vi</title>
-    <link>/</link>
-    <description>Recent content on Aether&#39;s Vi</description>
+    <title>front-end on Aether&#39;s Vi</title>
+    <link>/tags/front-end/</link>
+    <description>Recent content in front-end on Aether&#39;s Vi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 28 Apr 2023 08:43:14 -0400</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 28 Apr 2023 08:43:14 -0400</lastBuildDate><atom:link href="/tags/front-end/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Complaints on Github Pages</title>
       <link>/posts/complaints-on-hugo/</link>
@@ -15,8 +15,6 @@
       <guid>/posts/complaints-on-hugo/</guid>
       <description>Complaints on Github Pages hosting services when working with Hugo</description>
     </item>
-    
-    
     
   </channel>
 </rss>

@@ -1,10 +1,56 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tags on V E Blog</title>
+    <title>Tags on Aether&#39;s Vi</title>
     <link>/tags/</link>
-    <description>Recent content in Tags on V E Blog</description>
+    <description>Recent content in Tags on Aether&#39;s Vi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Fri, 28 Apr 2023 08:43:14 -0400</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>complaints</title>
+      <link>/tags/complaints/</link>
+      <pubDate>Fri, 28 Apr 2023 08:43:14 -0400</pubDate>
+      
+      <guid>/tags/complaints/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>front-end</title>
+      <link>/tags/front-end/</link>
+      <pubDate>Fri, 28 Apr 2023 08:43:14 -0400</pubDate>
+      
+      <guid>/tags/front-end/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>github</title>
+      <link>/tags/github/</link>
+      <pubDate>Fri, 28 Apr 2023 08:43:14 -0400</pubDate>
+      
+      <guid>/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>/tags/hugo/</link>
+      <pubDate>Fri, 28 Apr 2023 08:43:14 -0400</pubDate>
+      
+      <guid>/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>static website</title>
+      <link>/tags/static-website/</link>
+      <pubDate>Fri, 28 Apr 2023 08:43:14 -0400</pubDate>
+      
+      <guid>/tags/static-website/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

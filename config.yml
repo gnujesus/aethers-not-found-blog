@@ -1,8 +1,7 @@
 baseURL: '/'
 languageCode: en-us
 title: Aether's Vi 
-theme: PaperMod
-
+theme: hugo-theme-monochrome 
 
 outputs: # I don't know what this does
   home:
@@ -78,12 +77,12 @@ menu:
       url: /Tags/
       weight: 30
 
-    # Archives page
-    - identifier: archives 
-      name: Archives
-      url: /archives/
-      weight: 40
-      
+    # # Archives page
+    # - identifier: archives 
+    #   name: Archives
+    #   url: /archives/
+    #   weight: 40
+    #   
       
 
 
