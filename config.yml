@@ -12,10 +12,10 @@ outputs: # I don't know what this does
 
 params:
 
-  # # Home info content. Required for social media icons to show
-  # homeInfoParams:
-  #   Title:
-  #   Content
+  # Home info content. Required for social media icons to show
+  homeInfoParams:
+    Title: Greetings. I'm Aether.    
+    Content: I'm a Junior Software Developer who's learning every day to become a senior. Here you will find tutorials, posts, complaints, insight on some topics, and an overview of my learning.
   
 
   # Social icons
