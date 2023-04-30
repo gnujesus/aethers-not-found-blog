@@ -1,7 +1,7 @@
 baseURL: '/'
 languageCode: en-us
 title: Aether's Vi 
-theme: PaperMod  
+theme: PaperModX
 
 outputs: # I don't know what this does
   home:
@@ -11,6 +11,9 @@ outputs: # I don't know what this does
 
 
 params:
+
+  # Enable comments
+  comments: true
 
   # Home info content. Required for social media icons to show
   homeInfoParams:

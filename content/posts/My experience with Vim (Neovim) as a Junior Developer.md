@@ -88,6 +88,12 @@ As a Neovim user, I have to admit that I have gone through heaven and hell tryin
 
 The time you spend into setting up Neovim could be used to learn how to really use Vim shortcuts, and this can be done perfectly using Vscode. Even better, the time spent trying to understand how to set up Neovim could be used to actually learn how to code, work on projects and improve your programming ability. I’m not saying you should forget about switching to Neovim as your editor, but it is important that you evaluate what’s urgent and what’s important. I would advice you that if you’re planning on understanding how to configure Neovim and how everything works, take some time to learn the fundamentals of Lua, it will make the process way easier.
 
+# Summary
+
+Neovim is a fantastic code editor which may suit the workflow of many people, and help speed up the coding process of code and text editing. It's the perfect code editor for those adept to freedom and capability of customization and, in the long term, it's definitely going to be useful. 
+
+However, if you're just starting to learn how to code, I don't recommend learning how to set up Neovim, but rather learning Vim keybindings if your code editor includes a plugin for this or a Vim mode by default.
+
 # Conclusion
 
 Vim > Vscode.
