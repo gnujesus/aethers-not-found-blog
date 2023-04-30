@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Aether&#39;s Vi</title>
     <link>/tags/</link>
@@ -26,7 +26,7 @@
     </item>
     
     <item>
-      <title>github</title>
+      <title>GitHub</title>
       <link>/tags/github/</link>
       <pubDate>Fri, 28 Apr 2023 08:43:14 -0400</pubDate>
       
@@ -35,7 +35,7 @@
     </item>
     
     <item>
-      <title>hugo</title>
+      <title>Hugo</title>
       <link>/tags/hugo/</link>
       <pubDate>Fri, 28 Apr 2023 08:43:14 -0400</pubDate>
       

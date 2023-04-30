@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>complaints on Aether&#39;s Vi</title>
     <link>/tags/complaints/</link>
@@ -8,13 +8,21 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 28 Apr 2023 08:43:14 -0400</lastBuildDate><atom:link href="/tags/complaints/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Complaints on Github Pages</title>
+      <title>Complaints on GitHub Pages</title>
       <link>/posts/complaints-on-hugo/</link>
       <pubDate>Fri, 28 Apr 2023 08:43:14 -0400</pubDate>
       
       <guid>/posts/complaints-on-hugo/</guid>
-      <description>Welcome Welcome to the first post of my blog, aethers-vi, in which I will talk about the different complaints and problems I&amp;rsquo;ve been having working with Hugo along with Github Pages for the past 3 days, as well as explain some of the solutions I found useful for the problem I was having. I&amp;rsquo;ll tell you in advance, it&amp;rsquo;s been hell.
-Problems Lack of documentation Since the start of my journey trying to start this blog and post for the world for the first time, I&amp;rsquo;ve been struggling with the fact that paying for a server is too expensive for a blog which will be managed by one person only, So I went to explore other alternatives that could offer me something more accessible.</description>
+      <description>Complaints on GitHub Pages hosting services when working with Hugo</description>
+    </item>
+    
+    <item>
+      <title>My experience with Vim (Neovim) as a Junior Developer</title>
+      <link>/posts/my-experience-with-vim-neovim-as-a-junior-developer/</link>
+      <pubDate>Fri, 28 Apr 2023 08:43:14 -0400</pubDate>
+      
+      <guid>/posts/my-experience-with-vim-neovim-as-a-junior-developer/</guid>
+      <description>My experience using Neovim on my journey to become a senior developer</description>
     </item>
     
   </channel>

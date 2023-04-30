@@ -26,6 +26,9 @@
     <loc>/tags/hugo/</loc>
     <lastmod>2023-04-28T08:43:14-04:00</lastmod>
   </url><url>
+    <loc>/posts/my-experience-with-vim-neovim-as-a-junior-developer/</loc>
+    <lastmod>2023-04-28T08:43:14-04:00</lastmod>
+  </url><url>
     <loc>/categories/personal/</loc>
     <lastmod>2023-04-28T08:43:14-04:00</lastmod>
   </url><url>
@@ -37,9 +40,5 @@
   </url><url>
     <loc>/tags/</loc>
     <lastmod>2023-04-28T08:43:14-04:00</lastmod>
-  </url><url>
-    <loc>/archives/</loc>
-  </url><url>
-    <loc>/search/</loc>
   </url>
 </urlset>
