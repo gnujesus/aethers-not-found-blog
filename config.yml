@@ -1,6 +1,6 @@
 baseURL: '/'
 languageCode: en-us
-title: Aether's Vi 
+title: Aether Not Found
 theme: PaperModX
 
 # Remember that when posting something, content is ordered by weight, so if you want the last post to appear on top, order in a negative weight.
@@ -15,6 +15,9 @@ outputs: # I don't know what this does
 
 
 params:
+
+  # Change default theme
+  defaultTheme: dark
 
   # PaperModX, may cause errors when switching to PaperMod. Makes the navigation behave like a single page app
   EnableInstantClick: true

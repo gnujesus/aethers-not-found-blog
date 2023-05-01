@@ -1,5 +1,5 @@
 ---
-weight: -2
+weight:
 title: "My experience with Vim (Neovim) as a Junior Developer"
 date: 2023-04-28T08:43:14-04:00
 draft: false
@@ -71,7 +71,7 @@ Using Vim you only have to place yourself inside or near the brackets using `hjk
 
 Neovim allows it’s users to customize it to the core. After installing it, it comes as a plain text editor without more than basic text editing functions, and commands and combinations of keys that facilitate the code editing process (take into account that I’m not a Vim professional, I may be missing something here).
 
-It has a wide community of users who develop and are constantly updating plugins for it’s optimal usage, which allows you to customize it in ways you may have never imagined.
+It has a wide community of users who develop and are constantly updating plugins for its optimal usage, which allows you to customize it in ways you may have never imagined.
 
 ## Wide Community
 
