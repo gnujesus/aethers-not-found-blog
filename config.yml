@@ -1,7 +1,7 @@
 baseURL: '/'
 languageCode: en-us
 title: Aether's Vi 
-theme: PaperMod
+theme: PaperModX
 
 # Remember that when posting something, content is ordered by weight, so if you want the last post to appear on top, order in a negative weight.
 # Ex: first post -1, 2nd post -2
@@ -15,6 +15,10 @@ outputs: # I don't know what this does
 
 
 params:
+
+  # PaperModX, may cause errors when switching to PaperMod. Makes the navigation behave like a single page app
+  EnableInstantClick: true
+  
   # Favicon
   assets:
     favicon: '/static/favicon.ico'
@@ -89,7 +93,7 @@ params:
 
 menu:
   main:
- 
+
     # Archives page
     - identifier: archives 
       name: Archives
