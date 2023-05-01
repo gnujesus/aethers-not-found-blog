@@ -5,5 +5,5 @@ layout: "search"     # is necessary
 # description: "Description for Search"
 summary: "search"
 placeholder: "Type something..."
-draft: true
+draft: false
 ---

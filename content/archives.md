@@ -1,8 +1,8 @@
 ---
-title: 'Archvies' 
+title: 'Archives' 
 layout: 'archives'
 url: '/archives/' 
-description: 'Section of archived pages. Not shown on search nor on principal page, but open for reading.'
+description: 'Welcome to the Archives'
 summary: 'archives' 
-draft: true
+draft: false
 ---

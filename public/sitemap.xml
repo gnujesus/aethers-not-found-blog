@@ -40,5 +40,9 @@
   </url><url>
     <loc>/tags/</loc>
     <lastmod>2023-04-28T08:43:14-04:00</lastmod>
+  </url><url>
+    <loc>/archives/</loc>
+  </url><url>
+    <loc>/search/</loc>
   </url>
 </urlset>

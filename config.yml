@@ -1,7 +1,7 @@
 baseURL: '/'
 languageCode: en-us
 title: Aether's Vi 
-theme: PaperModX
+theme: PaperMod
 
 outputs: # I don't know what this does
   home:
@@ -11,6 +11,19 @@ outputs: # I don't know what this does
 
 
 params:
+  
+
+  # Show Rss Button
+  ShowRssButtonInSectionTermList: true
+
+  # Disable summary
+  hideSummary: true
+  
+  # Disable special card appearance
+  disableSpecial1stPost: true
+
+  # Enable social-metadata and SEO
+  env: production
 
   # Enable comments
   comments: true
@@ -63,29 +76,31 @@ params:
 
 menu:
   main:
+ 
     # Archives page
+    - identifier: archives 
+      name: Archives
+      url: /archives/
+      weight: 10
+
+    # Search bar
     - identifier: search 
       name: Search 
       url: /search/
-      weight: 10
+      weight: 20
 
     # Categories
     - identifier: categories
       name: Categories
       url: /categories/
-      weight: 220
+      weight: 30
+    
     # Tags
     - identifier: tags
       name: Tags
       url: /Tags/
-      weight: 30
-
-    # # Archives page
-    # - identifier: archives 
-    #   name: Archives
-    #   url: /archives/
-    #   weight: 40
-    #   
+      weight: 40
+      
       
 
 
