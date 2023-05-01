@@ -17,8 +17,6 @@ keywords:
 categories: ['Blog', 'Personal']
 ---
 
-****************Disclaimer: Vim > Emacs****************
-
 # Introduction
 
 I first learned about Vim thanks to [ThePrimeagen](https://www.youtube.com/@ThePrimeagen), a software developer and engineer who works at Netflix btw. When I saw Vim in action in the hands of an expert, coding in the exact same language I was learning in that moment but at the speed of light, made me realize that I couldn’t live my life as a developer without learning Vim. 
@@ -29,7 +27,7 @@ The shortcuts, the customization, the feel of control, the power, but overall…
 
 Is the best editor there is. Jk.
 
-Vim is a modal, free open-source text editor. It was first released for UNIX, and is (as you may guess) the text editor that comes by default with Linux. Neovim is aimed to improve text editing by the usage of keybinding, which gives users a more homerow-centric experience while editing.
+Vim is a modal, free open-source text editor. It was first released for UNIX, and is (as you may guess) the text editor that comes by default with Linux. Neovim is aimed to improve text editing by the usage of keybindings, which gives users a more homerow-centric experience when it comes to code.
 
 Neovim is actually a fork from which adds functionalities and improves some things about the editor.
 
@@ -39,7 +37,7 @@ Neovim is actually a fork from which adds functionalities and improves some thin
 
 Disclaimer: I will be referring to Vim (the program) as Neovim, since that’s what I use and prefer, but will refer to Vim (the keybindings) as Vim.
 
-Neovim offers a plethora of keybindings which allow programmers to speed up the process of developing a program, as well of a library even bigger of plugins that offer customization settings for improvement in any area of text editing. It’s like Atom: “**********************A hackable code editor**********************”, but this is actually a hackable code editor. RIP Atom btw.
+Neovim offers a plethora of keybindings which allows programmers to speed up the process of developing a program, as well of a library even bigger of plugins that offers customization settings for improvement in any area of text editing. It’s like Atom: “**********************A hackable code editor**********************”, but this is actually a hackable code editor. RIP Atom btw.
 
 Say for example that you want to delete a specific number of lines of code because you have to rewrite them for refactoring purposes. In Vscode, you would have to do one of these two things:
 
@@ -59,7 +57,7 @@ const buttons = document.querySelectorAll('.circle');
 
 for (let i = 0; i < buttons.length; i++){
 	buttons[i].addEventListener('click', function(){
-		console.log('Hello World')
+		console.log('Hello World');
 	}
 }
 ```
