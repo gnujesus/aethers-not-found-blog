@@ -1,5 +1,4 @@
 ---
-weight:
 title: "My experience with Vim (Neovim) as a Junior Developer"
 date: 2023-04-28T08:43:14-04:00
 draft: false

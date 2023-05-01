@@ -1,7 +1,6 @@
 ---
-weight: 
 title: "Complaints on GitHub Pages"
-date: 2023-04-28T08:43:14-04:00
+date: 2023-04-25T08:43:14-04:00
 draft: false
 description: 'Complaints on GitHub Pages hosting services when working with Hugo'
 tags: ['GitHub', 'Hugo','complaints', 'static website', 'front-end']
