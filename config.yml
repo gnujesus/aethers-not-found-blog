@@ -58,6 +58,9 @@ params:
       url: https://twitter.com/aethernotfound
     - name: github    
       url: https://github.com/juandma0
+    - name: linktr
+      title: Linktree
+      url: https://linktr.ee/aethernotfound
     - name: rss
       url: /index.xml
     
